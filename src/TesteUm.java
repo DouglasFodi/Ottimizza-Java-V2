@@ -13,7 +13,7 @@ public class TesteUm {
                 } else {
                     return dataFormatada[2] + " " + dataFormatada[1];
                 }
-            } else {
+            } else { // formata para impressão em yyyy MM
                 String mes = date.substring(2, 4);
                 String ano = date.substring(4, 8);
                 return ano + " " + mes;
